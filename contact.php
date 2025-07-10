@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="<?php bloginfo("charset");?>" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </div>
-        <img src="./images/wave.svg" alt="">
+        <img src="<?php bloginfo("template_url");?>/images/wave.svg" alt="">
         <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,320L26.7,272C53.3,224,107,128,160,96C213.3,64,267,96,320,122.7C373.3,149,427,171,480,170.7C533.3,171,587,149,640,144C693.3,139,747,149,800,133.3C853.3,117,907,75,960,58.7C1013.3,43,1067,53,1120,96C1173.3,139,1227,213,1280,245.3C1333.3,277,1387,267,1413,261.3L1440,256L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg> -->
         <!-- <svg
     class="frame-decoration"
